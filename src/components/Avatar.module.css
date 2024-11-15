@@ -1,6 +1,7 @@
 .avatar{
-        width: calc(3rem + 12px);
-        height: calc(3rem + 12px);
+        width: calc(3rem + 10px);
+        height: calc(3rem + 10px);
+        
        
 }
 
