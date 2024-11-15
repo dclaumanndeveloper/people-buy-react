@@ -26,7 +26,7 @@
     padding: 0;
     margin: 0;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1rem;
     text-indent: 0%;
     color: var(--gray-300);
 }
@@ -39,12 +39,12 @@
 }
 
 .formLogin input {
-    padding: 15px;
+    padding: 1rem;
     font-size: 14px;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
     transition: all linear 160ms;
     outline: none;
 }
@@ -52,11 +52,6 @@
 
 .formLogin input:focus {
     border: 1px solid var(--green-300);
-}
-
-.formLogin label {
-    font-size: 14px;
-    font-weight: 600;
 }
 
 .formLogin a {
