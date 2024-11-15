@@ -3,5 +3,6 @@
  display: flex;
  justify-content: center;
  padding: 1.25rem 0;
+ width: 100%;
  color: var(--white)
 }

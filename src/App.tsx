@@ -4,6 +4,7 @@ import styles from "./App.module.css"
 
 import './global.css' 
 import { Sidebar } from "./components/Sidebar"
+import { Login } from './components/Login'
 
 
 const posts: PostType[] = [{
@@ -39,20 +40,23 @@ const posts: PostType[] = [{
 
 },]
 function App() {
-
+  //<Header/>
+  //<Sidebar/>
+  //<main>
+  //{posts.map(post =>{
+  //  return (<Post
+  //   key={post.id}
+  //   post={post}
+  //  />)
+  //})}
   return (
    <div>
       <Header/>
-
       <div className={styles.wrapper}>
-        <Sidebar/>
-        <main>
-        {posts.map(post =>{
-          return (<Post
-           key={post.id}
-           post={post}
-          />)
-        })}
+      
+       <main>
+       <Login/>
+        
         </main>
       </div>
      
