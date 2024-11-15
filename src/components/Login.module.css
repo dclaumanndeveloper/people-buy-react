@@ -50,7 +50,7 @@
 
 
 .formLogin input:focus {
-    border: 1px solid #f72585;
+    border: 1px solid var(--green-300);
 }
 
 .formLogin label {
@@ -67,7 +67,7 @@
 }
 
 .formLogin a:hover {
-    color: #f72585;
+    color: var(--green-300);
 }
 
 .btn {
