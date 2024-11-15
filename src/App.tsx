@@ -1,4 +1,3 @@
-import { Header } from './components/Header';
 import styles from "./App.module.css"
 import './global.css' 
 import { Login } from './components/Login'
@@ -48,12 +47,10 @@ function App() {
   //})}
   return (
    <div>
-      <Header/>
       <div className={styles.wrapper}>
       
        <main>
-       <Login/>
-        
+          <Login/>
         </main>
       </div>
      

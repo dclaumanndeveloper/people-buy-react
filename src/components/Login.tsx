@@ -5,7 +5,7 @@ export function Login(){
         <>
          <div className={styles.page}>
             <form method="POST" className={styles.formLogin}>
-                <h1>Login</h1>
+                <h1>Bem vindo ao People Buy</h1>
                 <p>Digite os seus dados de acesso no campo abaixo.</p>
                 <label>E-mail:</label>
                 <input type="email" placeholder="Digite seu e-mail" />
