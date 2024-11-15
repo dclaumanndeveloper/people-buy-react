@@ -1,13 +1,10 @@
-import { Header } from './components/Header'
-import { Post,PostType } from "./components/Post"
+import { Header } from './components/Header';
 import styles from "./App.module.css"
-
 import './global.css' 
-import { Sidebar } from "./components/Sidebar"
 import { Login } from './components/Login'
 
 
-const posts: PostType[] = [{
+/*const posts: PostType[] = [{
   id: 1,
   author:{
     avatarUrl: 'https://github.com/dclaumanndeveloper.png',
@@ -38,7 +35,7 @@ const posts: PostType[] = [{
   publishedAt: new Date(),
 
 
-},]
+},]*/
 function App() {
   //<Header/>
   //<Sidebar/>
