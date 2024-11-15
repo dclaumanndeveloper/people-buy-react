@@ -27,6 +27,7 @@
     margin: 0;
     font-weight: 500;
     font-size: 2rem;
+    text-indent: 0%;
     color: var(--gray-300);
 }
 
